@@ -19,7 +19,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   ],
   imports: [
     BrowserModule, 
-    FormsModule, AppRoutingModule // <-- import the FormsModule before binding with [(ngModel)]
+    FormsModule, 
+    AppRoutingModule // <-- import the FormsModule before binding with [(ngModel)]
   ],
   providers: [],
   bootstrap: [AppComponent]
